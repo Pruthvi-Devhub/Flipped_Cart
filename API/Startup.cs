@@ -11,14 +11,18 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+using Core.Interfaces;
 
 namespace API
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly IConfiguration _config;
+        public Startup(IConfiguration config)
         {
-            Configuration = configuration;
+            _config= config;
         }
 
         public IConfiguration Configuration { get; }
@@ -28,6 +32,8 @@ namespace API
         {
 
             services.AddControllers();
+            services.AddScoped<IProductRepository,ProductRepository>();
+            services.AddDbContext<StoreContext>(x=>x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
