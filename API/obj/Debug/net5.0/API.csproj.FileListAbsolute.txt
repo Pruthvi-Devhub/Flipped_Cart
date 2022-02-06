@@ -66,3 +66,5 @@ C:\Users\rp444\Desktop\Projects\Ecommerce\flippedcart\API\bin\Debug\net5.0\Core.
 C:\Users\rp444\Desktop\Projects\Ecommerce\flippedcart\API\bin\Debug\net5.0\Infrastructure.dll
 C:\Users\rp444\Desktop\Projects\Ecommerce\flippedcart\API\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\rp444\Desktop\Projects\Ecommerce\flippedcart\API\bin\Debug\net5.0\Core.pdb
+C:\Users\rp444\Desktop\Projects\Ecommerce\flippedcart\API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\rp444\Desktop\Projects\Ecommerce\flippedcart\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

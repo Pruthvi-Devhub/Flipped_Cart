@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\API\\API.csproj": {}
+    "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\API\\API.csproj": {
+    "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\API\\API.csproj",
+        "projectPath": "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\api\\API.csproj",
         "packagesPath": "C:\\Users\\rp444\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\API\\obj\\",
+        "outputPath": "C:\\Users\\rp444\\Desktop\\Projects\\Ecommerce\\flippedcart\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rp444\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.1, )",
